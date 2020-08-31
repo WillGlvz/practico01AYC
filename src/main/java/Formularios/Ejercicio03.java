@@ -93,7 +93,6 @@ public class Ejercicio03 extends javax.swing.JDialog {
                 break;
             }
             char uno = jTextField1.getText().charAt(x+1);
-            String comb = String.valueOf(cero) + "1";
             if(cero == '0' && uno == '1'){
                 JOptionPane.showMessageDialog(rootPane, "La cadena ingresada es inválida", "Atención", JOptionPane.CANCEL_OPTION);
                 break;
